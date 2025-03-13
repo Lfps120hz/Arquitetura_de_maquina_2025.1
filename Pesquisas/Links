@@ -1,30 +1,48 @@
 Links/Conteudo:
 
-   Site #1: [text](https://pt.wikipedia.org/wiki/Software_Guard_Extensions?)
+   Site #1: (https://pt.wikipedia.org/wiki/Software_Guard_Extensions?)
 
 Conteudo (Base): 
 
-O SGX ( Software Security Guard Extensions ) da Intel é um conjunto de 
+O SGX (Software Security Guard Extensions) da Intel é um conjunto de 
 códigos de instruções relacionados à segurança incorporados em algumas
-unidades de processamento central (CPUs) modernas da Intel . Eles 
+unidades de processamento central (CPUs) modernas da Intel. Eles 
 permitem que o código do sistema operacional e do usuário definam regiões
 privadas da memória, denominadas enclaves, cujo conteúdo é protegido e 
 não pode ser lido ou salvo por qualquer processo fora do próprio 
 enclave, incluindo processos executados em níveis de privilégios mais
-altos .[1] O SGX está desativado por padrão e deve ser aceito pelo 
-usuário por meio de suas configurações de BIOS em um sistema suportado.[2]
+altos. O SGX está desativado por padrão e deve ser aceito pelo 
+usuário por meio de suas configurações de BIOS em um sistema suportado.
 
 O SGX envolve criptografia pela CPU de uma parte da memória. O enclave é 
 descriptografado em tempo real apenas dentro da própria CPU e, mesmo 
 assim, apenas para código e dados em execução dentro do próprio enclave.
-[3] O processador, portanto, protege o código de ser "espiado" ou 
-examinado por outro código.[3] O código e os dados no enclave utilizam um 
+O processador, portanto, protege o código de ser "espiado" ou 
+examinado por outro código. O código e os dados no enclave utilizam um 
 modelo de ameaça no qual o enclave é confiável, mas nenhum processo fora 
-dele (incluindo o próprio sistema operacional e qualquer hypervisor ) pode 
+dele (incluindo o próprio sistema operacional e qualquer hypervisor) pode 
 ser confiável e todos são tratados como potencialmente hostis. O conteúdo 
 do enclave não pode ser lido por nenhum código fora do enclave, exceto em 
-sua forma criptografada.[3] 
+sua forma criptografada.
 
+   Site #2: https://pt.wikipedia.org/wiki/Meltdown_(informática)
 
+Conteudo (Base): 
 
-   Site #2: https://pt.wikipedia.org/wiki/Meltdown_(informática).com
+O Meltdown é uma falha de segurança passível de ser explorada em microprocessadores da Intel de arquitetura x86-64 fabricados nos últimos 10 anos, bem como em alguns microprocessadores ARM. A mesma foi publicada em Janeiro de 2018.
+
+Impacto
+O Meltdown afeta uma variada gama de sistemas operacionais, incluindo iOS,
+e máquinas sem as últimas atualizações dos sistemas operacionais 
+Windows e Linux. Diversos provedores de serviços em cloud foram afetados,
+bem como, potencialmente, sistemas embarcados rodando alguns 
+processadores ARM.
+
+Uma solução puramente em software foi disponibilizada, afetando o 
+desempenho dos sistemas de 5 a 30% em alguns casos específicos, 
+enquanto algumas empresas responsáveis por testes de software publicaram 
+resultados informando impacto mínimo no desempenho.
+
+Ao explorar a falha é possível ler áreas de memória protegidas pelo 
+Kernel. Assim sendo possível obter dados sensíveis do usuário, como 
+senhas, até mesmo ao executar um código em JavaScript no navegador.
