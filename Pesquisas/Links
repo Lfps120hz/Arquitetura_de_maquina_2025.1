@@ -1,6 +1,6 @@
 Links/Conteudo:
 
-  Site #1: https://pt.wikipedia.org/wiki/Software_Guard_Extensions?
+   Site #1: [text](https://pt.wikipedia.org/wiki/Software_Guard_Extensions?)
 
 Conteudo (Base): 
 
@@ -24,3 +24,7 @@ dele (incluindo o próprio sistema operacional e qualquer hypervisor ) pode
 ser confiável e todos são tratados como potencialmente hostis. O conteúdo 
 do enclave não pode ser lido por nenhum código fora do enclave, exceto em 
 sua forma criptografada.[3] 
+
+
+
+   Site #2: [text](https://pt.wikipedia.org/wiki/Meltdown_(informática))
