@@ -1,7 +1,26 @@
-Site #1: https://pt.wikipedia.org/wiki/Software_Guard_Extensions?
+Links/Conteudo:
+
+  Site #1: https://pt.wikipedia.org/wiki/Software_Guard_Extensions?
 
 Conteudo (Base): 
 
-O SGX ( Software Security Guard Extensions ) da Intel é um conjunto de códigos de instruções relacionados à segurança incorporados em algumas unidades de processamento central (CPUs) modernas da Intel . Eles permitem que o código do sistema operacional e do usuário definam regiões privadas da memória, denominadas enclaves, cujo conteúdo é protegido e não pode ser lido ou salvo por qualquer processo fora do próprio enclave, incluindo processos executados em níveis de privilégios mais altos .[1] O SGX está desativado por padrão e deve ser aceito pelo usuário por meio de suas configurações de BIOS em um sistema suportado.[2]
+O SGX ( Software Security Guard Extensions ) da Intel é um conjunto de 
+códigos de instruções relacionados à segurança incorporados em algumas
+ unidades de processamento central (CPUs) modernas da Intel . Eles 
+ permitem que o código do sistema operacional e do usuário definam regiões
+  privadas da memória, denominadas enclaves, cujo conteúdo é protegido e 
+  não pode ser lido ou salvo por qualquer processo fora do próprio 
+  enclave, incluindo processos executados em níveis de privilégios mais
+   altos .[1] O SGX está desativado por padrão e deve ser aceito pelo 
+   usuário por meio de suas configurações de BIOS em um sistema suportado.[2]
 
-O SGX envolve criptografia pela CPU de uma parte da memória. O enclave é descriptografado em tempo real apenas dentro da própria CPU e, mesmo assim, apenas para código e dados em execução dentro do próprio enclave.[3] O processador, portanto, protege o código de ser "espiado" ou examinado por outro código.[3] O código e os dados no enclave utilizam um modelo de ameaça no qual o enclave é confiável, mas nenhum processo fora dele (incluindo o próprio sistema operacional e qualquer hypervisor ) pode ser confiável e todos são tratados como potencialmente hostis. O conteúdo do enclave não pode ser lido por nenhum código fora do enclave, exceto em sua forma criptografada.[3]
+O SGX envolve criptografia pela CPU de uma parte da memória. O enclave é 
+descriptografado em tempo real apenas dentro da própria CPU e, mesmo 
+assim, apenas para código e dados em execução dentro do próprio enclave.
+[3] O processador, portanto, protege o código de ser "espiado" ou 
+examinado por outro código.[3] O código e os dados no enclave utilizam um 
+modelo de ameaça no qual o enclave é confiável, mas nenhum processo fora 
+dele (incluindo o próprio sistema operacional e qualquer hypervisor ) pode 
+ser confiável e todos são tratados como potencialmente hostis. O conteúdo 
+do enclave não pode ser lido por nenhum código fora do enclave, exceto em 
+sua forma criptografada.[3] 
